@@ -8,7 +8,7 @@ const btnPagar = document.getElementById('btn-pagar');
 const buscador = document.getElementById('buscador');
 
 
-fetch('productos.json')
+fetch('../productos/productos.json')
   .then(response => response.json())
   .then(data => {
     mostrarProductos(data);
