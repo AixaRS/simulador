@@ -1,0 +1,52 @@
+.footer {
+    background-color: $nav;
+    color: $blanco;
+    padding: 2rem 0;
+    box-shadow: $sombra;
+
+    .container {
+        .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .col-md-6 {
+            margin-bottom: 1.5rem;
+
+            h3 {
+            font-size: 1.5rem;
+            color: $blanco;
+            margin-bottom: 1rem;
+            }
+
+            p {
+            margin: 0.3rem 0;
+            color: $blanco;
+
+            strong {
+                color: $gris;
+            }
+            }
+
+            ul {
+            padding: 0;
+            list-style: none;
+
+            li {
+            margin-bottom: 0.5rem;
+
+            a.link-redes {
+                color: $blanco;
+                text-decoration: none;
+                transition: color 0.3s ease;
+
+                &:hover {
+                color: $gris;
+                }
+            }
+            }
+        }
+        }
+    }
+    }
+}

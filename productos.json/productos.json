@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "nombre": "Carne Molida",
+      "precioPorKilo": 3200,
+      "categoria": "Vacuno",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748640531/b4mbugozglkyh6jifiry.jpg",
+      "descripcion": "Carne molida especial, ideal para hamburguesas."
+    },
+    {
+      "id": 2,
+      "nombre": "Pechuga de Pollo",
+      "precioPorKilo": 2800,
+      "categoria": "Aves",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748640627/ighndb2rl64xqh1lmifw.jpg",
+      "descripcion": "Pechuga de pollo sin piel ni hueso."
+    },
+    {
+      "id": 4,
+      "nombre": "Chorizo Parrillero",
+      "precioPorKilo": 2400,
+      "categoria": "Embutidos",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748640808/chorizos-gancho-1_cjjii6.png",
+      "descripcion": "Chorizos frescos, perfectos para el asado."
+    },
+    {
+      "id": 5,
+      "nombre": "Milanesa de carne",
+      "precioPorKilo": 3300,
+      "categoria": "Vacuno",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748604109/milanesas_ivlpe2.jpg",
+      "descripcion": "Rebanadas empanadas listas para freír."
+    },
+    {
+      "id": 6,
+      "nombre": "Pata y Muslo",
+      "precioPorKilo": 2000,
+      "categoria": "Aves",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748640894/pata-muslo_tilqfz.jpg",
+      "descripcion": "Ideal para guisos y horno."
+    },
+    {
+      "id": 7,
+      "nombre": "Matambre Vacuno",
+      "precioPorKilo": 3900,
+      "categoria": "Vacuno",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748640944/sbaajw30zb5crqkib6f0.jpg",
+      "descripcion": "Perfecto para arrollado o a la parrilla."
+    },
+    {
+      "id": 8,
+      "nombre": "Bondiola de Cerdo",
+      "precioPorKilo": 4100,
+      "categoria": "Cerdo",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748641011/vdsvslkpqjrtru6cbayj.jpg",
+      "descripcion": "Corte tierno y sabroso, ideal para horno o sandwich."
+    },
+    {
+      "id": 9,
+      "nombre": "Chinchulines",
+      "precioPorKilo": 1800,
+      "categoria": "Vacuno",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748641076/sr7qhrp3jlc9udmyl988.jpg",
+      "descripcion": "Tradicionales para la parrilla argentina."
+    },
+    {
+      "id": 10,
+      "nombre": "Salchichas Parrilleras",
+      "precioPorKilo": 2600,
+      "categoria": "Embutidos",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748641305/eg9frcnexbo8zlaktfjm.jpg",
+      "descripcion": "Salchichas largas para la parrilla."
+    },
+    {
+      "id": 11,
+      "nombre": "Tira de Asado",
+      "precioPorKilo": 4200,
+      "categoria": "Vacuno",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748641251/images_rgqief.jpg",
+      "descripcion": "Uno de los cortes más populares para el asado."
+    },
+    {
+      "id": 12,
+      "nombre": "Lomo Vacuno",
+      "precioPorKilo": 5400,
+      "categoria": "Vacuno",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748641236/pkzbkbzma9tc1rrykphu.jpg",
+      "descripcion": "Corte premium, extremadamente tierno."
+    },
+    {
+      "id": 13,
+      "nombre": "Chorizo Colorado",
+      "precioPorKilo": 2300,
+      "categoria": "Embutido",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748641223/CHORIZO-COLORADO-CANTIMPALO-1_xjzpug.png",
+      "descripcion": "Tradicional para locro o guisos."
+    },
+    {
+      "id": 14,
+      "nombre": "Cuadrada",
+      "precioPorKilo": 2300,
+      "categoria": "Vacuno",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748604107/cuadrada_jexcs5.jpg",
+      "descripcion": "Tradicional para guisos."
+    },
+    {
+      "id": 15,
+      "nombre": "Entraña",
+      "precioPorKilo": 7300,
+      "categoria": "Vacuno",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748604107/entra%C3%B1a_zrg7im.jpg",
+      "descripcion": "Tradicional para asado."
+    },
+    {
+      "id": 16,
+      "nombre": "Osobuco",
+      "precioPorKilo": 2900,
+      "categoria": "Vacuno",
+      "imagen": "https://res.cloudinary.com/dvv3omobg/image/upload/v1748604108/osobuco_dnt0hu.jpg",
+      "descripcion": "Tradicional para estofados."
+    }
+  ]
+  

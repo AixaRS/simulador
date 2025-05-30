@@ -1,0 +1,60 @@
+
+.row {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    }
+
+.card {
+    height: 100%;
+    flex-grow: 1;
+    border-radius: 12px;
+    box-shadow: $sombra;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: $blanco;
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 6px 12px $sombra;
+    }
+
+    img {
+        height: 220px;
+        object-fit: cover;
+        border-bottom: 1px solid lighten($gris, 20%);
+    }
+
+    .card-body {
+        padding: 1.5rem;
+        .card-title {
+            font-size: 1.5rem;
+            color: $rojo-oscuro;
+            margin-bottom: 1rem;
+            font-weight: bold;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        color: $negro;
+        margin-top: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    ul {
+        padding-left: 1.2rem;
+        margin-bottom: 1rem;
+
+        li {
+        margin-bottom: 0.4rem;
+        color: $gris;
+        }
+    }
+
+    p {
+        margin-top: 0.5rem;
+        line-height: 1.6;
+        color: $gris;
+    }
+    }
+}

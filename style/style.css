@@ -1,0 +1,326 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);
+}
+.navbar .navbar-brand {
+  color: #fdfefe;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-brand img {
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #fdfefe;
+  transition: color 0.3s ease;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(96.1169354839, 99.2943548387, 100.8830645161);
+}
+
+main {
+  background-color: #000000;
+  padding: 2rem 0 20px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #000000;
+  color: #fdfefe;
+}
+
+.texto {
+  background-color: #000000;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);
+  padding: 2%;
+  text-align: center;
+  font-family: sans-serif;
+  border-color: #fdfefe;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+  padding: 20px;
+}
+.image-grid .image-item {
+  overflow: hidden;
+  border-radius: 8px;
+}
+.image-grid .image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.image-grid .image-item:nth-child(5), .image-grid .image-item:nth-child(6) {
+  grid-column: span 2;
+}
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+  .image-grid .image-item {
+    grid-column: span 1;
+  }
+}
+
+.productos-carniceria .producto-card {
+  background-color: #fdfefe;
+  border: 1px solid #797d7f;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.productos-carniceria .producto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);
+}
+.productos-carniceria .producto-card .producto-imagen {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.productos-carniceria .producto-card .producto-detalle {
+  padding: 1rem;
+  flex: 1;
+}
+.productos-carniceria .producto-card .producto-detalle h5 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #641e16;
+}
+.productos-carniceria .producto-card .producto-detalle p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #797d7f;
+}
+.productos-carniceria .producto-card .producto-detalle .producto-boton {
+  background-color: #000000;
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #fdfefe;
+  text-decoration: none;
+  border-bottom: #000000;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+.productos-carniceria .producto-card .producto-detalle .producto-boton:hover {
+  border-color: #797d7f;
+}
+
+.row {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.card {
+  height: 100%;
+  flex-grow: 1;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fdfefe;
+}
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px 0 2px 6px rgba(255, 255, 255, 0.2);
+}
+.card img {
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid rgb(173.064516129, 175.6451612903, 176.935483871);
+}
+.card .card-body {
+  padding: 1.5rem;
+}
+.card .card-body .card-title {
+  font-size: 1.5rem;
+  color: #641e16;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.card .card-body h3 {
+  font-size: 1.2rem;
+  color: #000000;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.card .card-body ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+.card .card-body ul li {
+  margin-bottom: 0.4rem;
+  color: #797d7f;
+}
+.card .card-body p {
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  color: #797d7f;
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fdfefe;
+  padding: 2rem 0;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);
+}
+.footer .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer .container .row .col-md-6 {
+  margin-bottom: 1.5rem;
+}
+.footer .container .row .col-md-6 h3 {
+  font-size: 1.5rem;
+  color: #fdfefe;
+  margin-bottom: 1rem;
+}
+.footer .container .row .col-md-6 p {
+  margin: 0.3rem 0;
+  color: #fdfefe;
+}
+.footer .container .row .col-md-6 p strong {
+  color: #797d7f;
+}
+.footer .container .row .col-md-6 ul {
+  padding: 0;
+  list-style: none;
+}
+.footer .container .row .col-md-6 ul li {
+  margin-bottom: 0.5rem;
+}
+.footer .container .row .col-md-6 ul li a.link-redes {
+  color: #fdfefe;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer .container .row .col-md-6 ul li a.link-redes:hover {
+  color: #797d7f;
+}
+
+.registro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1rem;
+  background-color: 0 2px 6px rgba(255, 255, 255, 0.2);
+}
+.registro form {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.registro .campo {
+  display: flex;
+  flex-direction: column;
+}
+.registro .campo label {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+.registro .campo input {
+  padding: 0.6rem 1rem;
+  border: 1px solid #797d7f;
+  border-radius: 0.5rem;
+  background-color: #fdfefe;
+  color: #000000;
+}
+.registro .campo input:focus {
+  outline: none;
+  border-color: #641e16;
+}
+.registro .form-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.registro .form-check input[type=checkbox] {
+  transform: scale(1.2);
+  accent-color: #641e16;
+}
+.registro .form-check label {
+  color: #797d7f;
+}
+.registro .form-check label a {
+  color: #641e16;
+  text-decoration: underline;
+}
+.registro .buton {
+  background-color: #641e16;
+  color: #fdfefe;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.registro .buton:hover {
+  background-color: rgb(58.1967213115, 17.4590163934, 12.8032786885);
+}
+
+#carouselCarniceria {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+#carouselCarniceria .carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#carouselCarniceria .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  background-color: #000000;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+#carouselCarniceria .carousel-inner .carousel-item .carousel-caption h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+#carouselCarniceria .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item .carousel-caption {
+    display: none;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

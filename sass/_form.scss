@@ -1,0 +1,77 @@
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 1rem;
+    background-color: $sombra;
+form {
+    background-color: $nav;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: $sombra;
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+    .campo {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-weight: bold;
+        color: $negro;
+        margin-bottom: 0.5rem;
+    }
+
+    input {
+        padding: 0.6rem 1rem;
+        border: 1px solid $gris;
+        border-radius: 0.5rem;
+        background-color: $blanco;
+        color: $negro;
+
+    &:focus {
+        outline: none;
+        border-color: $rojo-oscuro;
+    }
+    }
+}
+
+    .form-check {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    input[type="checkbox"] {
+        transform: scale(1.2);
+        accent-color: $rojo-oscuro;
+        }
+
+    label {
+        color: $gris;
+
+    a {
+        color: $rojo-oscuro;
+        text-decoration: underline;
+    }
+    }
+}
+
+    .buton {
+    background-color: $rojo-oscuro;
+    color: $blanco;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: darken($rojo-oscuro, 10%);
+    }
+    }
+}

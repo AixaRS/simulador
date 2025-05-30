@@ -1,0 +1,59 @@
+
+.productos-carniceria {
+    .producto-card {
+    background-color: $blanco;
+    border: 1px solid $gris;
+    border-radius: 1rem;
+    box-shadow: $sombra;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: $sombra;
+    }
+
+    .producto-imagen {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .producto-detalle {
+        padding: 1rem;
+        flex: 1;
+
+        h5 {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+        color: $rojo-oscuro;
+        }
+
+        p {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+        color: $gris;
+        }
+
+        .producto-boton {
+        background-color: $negro;
+        display: inline-block;
+        font-size: 0.9rem;
+        color: $blanco;
+        text-decoration: none;
+        border-bottom: $negro;
+        border-radius: 5px;
+        transition: all 0.2s ease;
+
+        &:hover {
+            border-color: $gris;
+        }
+        }
+    }
+    }
+}
+

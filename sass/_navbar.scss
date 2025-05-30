@@ -1,0 +1,30 @@
+.navbar {
+    background-color: $nav ;
+    box-shadow: $sombra;
+
+    .navbar-brand {
+        color: $blanco;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+
+
+        img {
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: $blanco;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: darken($gris, 10%);
+                }
+            }
+        }
+    }
+}
